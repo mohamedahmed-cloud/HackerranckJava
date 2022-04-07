@@ -3,26 +3,44 @@ import java.util.Scanner;
 public class problem0005 {
     public static void main(String[]args){
         Scanner input=new Scanner(System.in);
+        String a=input.next();
         int x=input.nextInt();
-        double y=input.nextDouble();
-        input.nextLine(); //Important to break the line of input form the last nextDouble()
-        String z= input.nextLine();
-        input.close();
-        System.out.println("String: "+ z);
-        System.out.println("Double: "+y);
-        System.out.println("Int: "+x);
+        String b=input.next();
+        int y=input.nextInt();
+        String c=input.next();
+        int z=input.nextInt();
+        System.out.println("================================");
+        System.out.printf("%-15s",a);
+        System.out.printf("%03d",x);
+        System.out.println("");
+//        Second
+        System.out.printf("%-15s",b);
+        System.out.printf("%03d",y);
+        System.out.println("");
+//        Thrid
+        System.out.printf("%-15s",c);
+        System.out.printf("%03d",z);
+        System.out.println("");
+
+        System.out.println("================================");
+
+
+
+
     }
 }
-//Note That=>Next& NextLine is difference
 /*
-Input:
+Input :
 
-42
-3.1415
-Welcome to HackerRank's Java tutorials!
+java 100
+cpp 65
+python 50
 
 Output :
-String: Welcome to HackerRank's Java tutorials!
-Double: 3.1415
-Int: 42
+
+================================
+java           100
+cpp            065
+python         050
+================================
  */
