@@ -1,2 +1,10 @@
 # HackerranckJava
-Problem Solved on Hackerranck by Java
+Problem Solving on Hackerranck by Java
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+
+
