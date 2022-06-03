@@ -1,6 +1,8 @@
 /*
-problem Link
-https://www.hackerrank.com/challenges/java-end-of-file/problem?isFullScreen=true
+Problem Name :
+ Java End-of-file
+problem Link :
+ https://www.hackerrank.com/challenges/java-end-of-file/problem?isFullScreen=true
 
  */
 import java.util.Scanner;
