@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class problem0001 {
+public class Problem0001 {
     public static void main (String[]args){
         Scanner input =new Scanner(System.in);
         String x=input.next();

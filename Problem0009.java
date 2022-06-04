@@ -6,7 +6,7 @@ https://www.hackerrank.com/challenges/java-datatypes/problem?isFullScreen=true
   */
 import java.util.Scanner;
 
-public class problem0009 {
+public class Problem0009 {
     public static void main(String[]args){
                 Scanner sc = new Scanner(System.in);
                 int t=sc.nextInt();
