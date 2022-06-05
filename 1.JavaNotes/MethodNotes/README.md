@@ -46,8 +46,14 @@
 - #### Assign value 
 -  **We use `==` when comparing with number**
 -  **We use .equals()`When comparing with String**
+-  **we use `.equalsIgnoreCase()` when comparing with String and ignoring case sensitive**
+  
 ```java
         // In String
+        
+        if(str.equalsIgnoreCase(str2){
+                //
+        }
         if(str.equals(reverseStr)){
                 ///
         }
@@ -57,4 +63,22 @@
         }
 
 ```
+--------
+- #### ***String Notes***
+- `To Split String to Array`
+- `To convert String into Array`
+```java
+        String a=scanner.next();
+        String [] arr1=a.split("");
+````
+- `Convert uppercase,lowercase to lowercase`
+```java
+        arr2[i].toLowerCase();
+```
+- #### Check a number in a string or Not
+  ```java
+  if(str.contains("s")){
+          //
+  }
+  ```
 

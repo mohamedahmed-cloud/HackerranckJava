@@ -21,6 +21,7 @@
         int num=cal.get(Calendar.DAY_OF_WEEK);
         System.out.println(Week_Day[num-1]);
 ```
+---------
 
 - #### Currancy Formatting
   - **We First Use `NumberFormat ` and Make an object from it** 
@@ -41,4 +42,43 @@
         NumberFormat in=NumberFormat.getCurrencyInstance(IndiaLocal);
         System.out.println("India: " +in.format(input));
 ```
+----
+- #### Assign value 
+-  **We use `==` when comparing with number**
+-  **We use .equals()`When comparing with String**
+-  **we use `.equalsIgnoreCase()` when comparing with String and ignoring case sensitive**
+  
+```java
+        // In String
+        
+        if(str.equalsIgnoreCase(str2){
+                //
+        }
+        if(str.equals(reverseStr)){
+                ///
+        }
+        //  IN Number
+        if(num==num1){
+                //
+        }
+
+```
+--------
+- #### ***String Notes***
+- `To Split String to Array`
+- `To convert String into Array`
+```java
+        String a=scanner.next();
+        String [] arr1=a.split("");
+````
+- `Convert uppercase,lowercase to lowercase`
+```java
+        arr2[i].toLowerCase();
+```
+- #### Check a number in a string or Not
+  ```java
+  if(str.contains("s")){
+          //
+  }
+  ```
 
