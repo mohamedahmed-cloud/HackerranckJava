@@ -81,4 +81,28 @@
           //
   }
   ```
+  ---
+- #### ***To Compare string alphetic order in java***
+
+  ```java
+        /*
+        Let str="a" and str2="b"
+        The result will be:-1
+        Let str="b" and str2="a" 
+        The result will be:1
+        */
+  if(str.compareTo(str2)>0){
+          //
+  }
+  ```
+  ---
+- #### ***To Check If the element in array is empty or not***
+  ```java
+  <!--Note this is So Important -->
+        if(arr[i].isEmpty()){
+                //
+        }
+  ```
+
+ 
 

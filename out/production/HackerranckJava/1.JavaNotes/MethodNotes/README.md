@@ -81,4 +81,19 @@
           //
   }
   ```
+  ---
+- #### ***To Compare string alphetic order in java***
+
+  ```java
+        /*
+        Let str="a" and str2="b"
+        The result will be:-1
+        Let str="b" and str2="a" 
+        The result will be:1
+        */
+  if(str.compareTo(str2)>0){
+          //
+  }
+  ```
+  ---
 
