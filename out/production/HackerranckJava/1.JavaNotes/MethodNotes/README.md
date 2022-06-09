@@ -45,7 +45,7 @@
 ----
 - #### Assign value 
 -  **We use `==` when comparing with number**
--  **We use .equals()`When comparing with String**
+-  **We use .equals()`When comparing with String or reference type**
 -  **we use `.equalsIgnoreCase()` when comparing with String and ignoring case sensitive**
   
 ```java
@@ -96,4 +96,42 @@
   }
   ```
   ---
+- #### ***To Check If the element in array is empty or not***
+  ```java
+  <!--Note this is So Important -->
+        if(arr[i].isEmpty()){
+                //
+        }
+  ```
+---
+- #### ***To Check The Pattern is Valid or not Using `Pattern Class`***
+```java
+try{
+        Pattern p=Pattern.compile(pattern);
+        Sytem.out.println("Valid");
+}catch(PatternSyntaxException e){
+        System.out.println("Invalid");
+        //
+}
+```
+ ---
+ - #### ***To Take Very Huge Number From User***
+  ```java 
+        Scanner scanner=new Scanner(System.in);
+        BigInteger n = scanner.nextBigInteger();
+        <!-- To check if this is prime of not -->
+        <!-- The Number inside isProbablePrime can be any integer -->
+        System.out.println(n.isProbablePrime(10) ? "prime" : "not prime");
+
+  ```
+---
+- #### ***Big Integer Notes***
+```java
+        BigInteger big1=scanner.nextBigInteger();
+        BigInteger big2=scanner.nextBigInteger();
+        // To add two Big Integer
+        BigInteger out1=big1.add(big2);
+        // To Multiple two Big Integer
+        BigInteger out2=big1.multiply(big2);
+```
 
