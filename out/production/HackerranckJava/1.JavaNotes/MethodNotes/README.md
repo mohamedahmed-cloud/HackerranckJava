@@ -1,17 +1,23 @@
 # Java Method Notes
 
-- #### To Convert Number to String 
-**Use Mehtod called `String.valueOf()`* 
+- #### To Convert Number to String
+
+**Use Mehtod called `String.valueOf()`*
+
 ```java
     String myString=String.valueOf(number);
 ```
+
 ------------
+
 - #### Find Date with [`class Calendar`](https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html)
 - `Type Date In Your laptop`
+
 ```java
         Date dt=new Date();
         System.out.println(dt);
 ```
+
 - `This Code Manage you to get day name from date[year,month,day]`
 
 ```java 
@@ -21,11 +27,12 @@
         int num=cal.get(Calendar.DAY_OF_WEEK);
         System.out.println(Week_Day[num-1]);
 ```
+
 ---------
 
 - #### Currancy Formatting
-  - **We First Use `NumberFormat ` and Make an object from it** 
-  - **Second We Use `The Method in Number Format Object called "Format"` to make a format `us.format(input)`**
+    - **We First Use `NumberFormat ` and Make an object from it**
+    - **Second We Use `The Method in Number Format Object called "Format"` to make a format `us.format(input)`**
   ```java
         Scanner scanner=new Scanner(System.in);
         double input=scanner.nextDouble();
@@ -42,12 +49,14 @@
         NumberFormat in=NumberFormat.getCurrencyInstance(IndiaLocal);
         System.out.println("India: " +in.format(input));
 ```
+
 ----
-- #### Assign value 
--  **We use `==` when comparing with number**
--  **We use .equals()`When comparing with String or reference type**
--  **we use `.equalsIgnoreCase()` when comparing with String and ignoring case sensitive**
-  
+
+- #### Assign value
+- **We use `==` when comparing with number**
+- **We use .equals()`When comparing with String or reference type**
+- **we use `.equalsIgnoreCase()` when comparing with String and ignoring case sensitive**
+
 ```java
         // In String
         
@@ -63,18 +72,24 @@
         }
 
 ```
+
 --------
+
 - #### ***String Notes***
 - `To Split String to Array`
 - `To convert String into Array`
+
 ```java
         String a=scanner.next();
         String [] arr1=a.split("");
 ````
+
 - `Convert uppercase,lowercase to lowercase`
+
 ```java
         arr2[i].toLowerCase();
 ```
+
 - #### Check a number in a string or Not
   ```java
   if(str.contains("s")){
@@ -103,8 +118,11 @@
                 //
         }
   ```
+
 ---
+
 - #### ***To Check The Pattern is Valid or not Using `Pattern Class`***
+
 ```java
 try{
         Pattern p=Pattern.compile(pattern);
@@ -114,8 +132,11 @@ try{
         //
 }
 ```
+
  ---
- - #### ***To Take Very Huge Number From User***
+
+- #### ***To Take Very Huge Number From User***
+
   ```java 
         Scanner scanner=new Scanner(System.in);
         BigInteger n = scanner.nextBigInteger();
@@ -124,8 +145,11 @@ try{
         System.out.println(n.isProbablePrime(10) ? "prime" : "not prime");
 
   ```
+
 ---
+
 - #### ***Big Integer Notes***
+
 ```java
         BigInteger big1=scanner.nextBigInteger();
         BigInteger big2=scanner.nextBigInteger();

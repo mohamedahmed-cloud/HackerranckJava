@@ -8,13 +8,13 @@ https://www.hackerrank.com/challenges/java-substring/problem?h_r=next-challenge&
 
  */
 public class Problem0019 {
-    public static void main(String[]args){
+    public static void main(String[] args) {
 //        Input operation
-        Scanner scanner=new Scanner(System.in);
-        String str=scanner.nextLine();
-        int num1=scanner.nextInt();
-        int num2=scanner.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
 //        Output Operation
-        System.out.println(str.substring(num1,num2));
+        System.out.println(str.substring(num1, num2));
     }
 }

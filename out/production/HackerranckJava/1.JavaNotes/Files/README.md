@@ -22,11 +22,15 @@ public class problem0010 {
 
 }
 ```
+
 ### Access File Data
+
 - To Access File Name
+
 ```java
     myFile.getName(); 
 ```
+
 - To Acces File path
   ```java
   myFile.getAbsolutePath();
@@ -36,15 +40,21 @@ public class problem0010 {
   myFile.canWrite();
   ```
 - To Know Do You Can Read or not?
+
 ```java
     myFile.canRead();
 ```
+
 - To Acces File length
+
 ```java
     myFile.length();
 ```
+
 ----
+
 ## To Write & Append in File
+
 ```java
 import java.io.File;
 import java.io.FileWriter;
@@ -67,24 +77,32 @@ public class problem0010 {
 }
 
 ```
+
 - This Code close File and it's Important to make Write in a file
 - Without This line the Write code doen't excuted
+
 ```java
 file.close();
 ```
+
 - Main Code To Write
 
 ```java
 FileWriter file=new FileWriter("read.txt");
 file.write("hello man");
 ```
+
 ## `or`
+
 ```java
  FileWriter file=new FileWriter("read.txt");
 file.append("hello man ");
 ```
+
 ------
+
 ## To Read in File
+
 ```java
 import java.io.File;
 import java.io.FileWriter;
@@ -111,7 +129,9 @@ public class problem0010 {
 }
 
 ```
+
 ### Main Code To Write
+
 ```java
     File file=new File("read.txt");
     Scanner scan=new Scanner(file);
@@ -121,4 +141,5 @@ public class problem0010 {
     }
     scan.close();
 ```
+
 ----

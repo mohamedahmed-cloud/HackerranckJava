@@ -7,16 +7,16 @@ Problem Link :
 Java 1D Array
  */
 public class Problem025 {
-    public static void main(String []args){
+    public static void main(String[] args) {
 //        Input Operation
-        Scanner scanner=new Scanner(System.in);
-        int len=scanner.nextInt();
-        int [] arr=new int[len];
+        Scanner scanner = new Scanner(System.in);
+        int len = scanner.nextInt();
+        int[] arr = new int[len];
 //        Output Operation
-        for(int i=0; i<len;i++){
-            arr[i]= scanner.nextInt();
+        for (int i = 0; i < len; i++) {
+            arr[i] = scanner.nextInt();
         }
-        for(int i=0;i<len;i++){
+        for (int i = 0; i < len; i++) {
             System.out.println(arr[i]);
         }
     }

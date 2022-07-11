@@ -9,9 +9,9 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class Problem0023 {
-    public static void main(String []args){
+    public static void main(String[] args) {
 //        Input Operation
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         //        Solution That pass all
 //        Output Operation
         BigInteger n = scanner.nextBigInteger();
@@ -34,7 +34,6 @@ public class Problem0023 {
 //        else System.out.println("not prime");
 
 
-
     }
-    }
+}
 
